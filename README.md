@@ -1,3 +1,10 @@
+## About this plugin
+Help convert all Figma Variable hexes to aliases from another collection (of color primitives usually).
+![12-18-tc0gl-vw67e](https://github.com/matlegault/variable-hexes-to-aliases/assets/1365625/b8d7231a-1da7-47a6-a7ce-a01088e549d0)
+
+
+## Getting the plugin up and running
+
 Below are the steps to get your plugin running. You can also find instructions at:
 
   https://www.figma.com/plugin-docs/plugin-quickstart-guide/
