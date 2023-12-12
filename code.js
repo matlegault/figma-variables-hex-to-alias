@@ -2,9 +2,9 @@
 console.clear();
 // Fetch all local variable collections
 const allCollections = figma.variables.getLocalVariableCollections();
-// Find the Mode and Colors collections
-const modeCollection = allCollections.find(collection => collection.name === 'Mode');
-const colorsCollection = allCollections.find(collection => collection.name === 'Colors');
+// Find the collections
+const modeCollection = allCollections.find(collection => collection.name === 'Mode'); //Change this to the name of the collection you want to change color hexes to aliases
+const colorsCollection = allCollections.find(collection => collection.name === 'Colors'); // Change this to the source of your color primitives, where the aliases will point to
 if (!modeCollection || !colorsCollection) {
     figma.notify('Mode or Colors collection not found');
     figma.closePlugin();

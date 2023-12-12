@@ -1,13 +1,13 @@
 {
-  "name": "ShopifyStylesToVariables",
+  "name": "hex-code-to-alias",
   "version": "1.0.0",
-  "description": "Your Figma Plugin",
+  "description": "Convert hex codes to aliases from another variables collection.",
   "main": "code.js",
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "watch": "npm run build -- --watch"
   },
-  "author": "",
+  "author": "Mathieu Legault",
   "license": "",
   "devDependencies": {
     "@figma/plugin-typings": "^1.82.0",
