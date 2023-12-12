@@ -3,6 +3,8 @@ Help convert all Figma Variable hexes to aliases from another collection (of col
 
 This is useful when converting your Styles to Variables, and wanting to create a hierarchy across collections by using Aliases (references) from one Collection to another.
 
+This will simply match hex values from one collection to another and create an alias if there's a match.
+
 ![12-18-tc0gl-vw67e](https://github.com/matlegault/variable-hexes-to-aliases/assets/1365625/b8d7231a-1da7-47a6-a7ce-a01088e549d0)
 
 
