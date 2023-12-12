@@ -8,7 +8,7 @@ const modeCollection = allCollections.find(collection => collection.name === 'Mo
 const colorsCollection = allCollections.find(collection => collection.name === 'Colors'); // Change this to the source of your color primitives, where the aliases will point to
 
 if (!modeCollection || !colorsCollection) {
-  figma.notify('Mode or Colors collection not found');
+  figma.notify('One of the collection was not found');
   figma.closePlugin();
 } else {
   // Create a map of hex values to variables in the Colors collection
